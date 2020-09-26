@@ -1,0 +1,30 @@
+.todos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+.todo__input {
+  margin: 0 0 1rem;
+}
+
+.todo {
+  margin: 0 0 1rem;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.todo__content {
+  flex-basis: 120px;
+}
+
+.tabs {
+  display: flex;
+  list-style: none;
+}
+.tab {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
